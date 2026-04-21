@@ -21,7 +21,7 @@ A personal portfolio website showcasing my skills, projects, and contact details
 
 ---
 
-### 🎯 2. Landing Page
+###  2. Landing Page
 
 A modern and responsive landing page designed with clean UI.
 
