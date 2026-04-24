@@ -1,60 +1,82 @@
-# CodSoft Internship Projects
+# CodSoft Web Development Internship Projects 
 
-This repository contains all the projects completed as part of the **CodSoft Web Development Internship**.
+This repository contains all the projects completed as part of my **CodSoft Web Development Internship**.
+These projects showcase my skills in **HTML, CSS, and JavaScript** through responsive and interactive web applications.
+
+## 📂 Projects Included
+
+### 1️ Portfolio Website
+
+A personal portfolio website showcasing my skills, certifications, projects, and contact details.
+
+#### Features:
+
+* Responsive design for all devices
+* Smooth scrolling navigation
+* About Me section
+* Skills & Projects section
+* Contact section
+* Resume download option
+
+#### Tech Stack:
+
+* HTML
+* CSS
+* JavaScript
 
 ---
 
-##  Projects Included
+### 2️ Landing Page
 
-###  1. Portfolio Website
+A modern and responsive landing page with a clean user interface.
 
-A personal portfolio website showcasing my skills, projects, and contact details.
-
-**Features:**
-
-* Responsive design
-* Smooth navigation
-* About & Contact sections
-* Resume download
-
-**Tech Stack:** HTML, CSS
-
----
-
-###  2. Landing Page
-
-A modern and responsive landing page designed with clean UI.
-
-**Features:**
+#### Features:
 
 * Attractive UI design
 * Navigation bar
 * Responsive layout
+* Call-to-action sections
 
-**Tech Stack:** HTML, CSS
+#### Tech Stack:
 
----
-
-###  3. Calculator
-
-A simple calculator that performs basic arithmetic operations.
-
-**Features:**
-
-* Addition, Subtraction, Multiplication, Division
-* Interactive UI
-
-**Tech Stack:** HTML, CSS, JavaScript
+* HTML
+* CSS
 
 ---
 
-## Folder Structure
+### 3️ Advanced Calculator
+
+A feature-rich calculator with multiple functionalities and dark/light mode support.
+
+#### Features:
+
+* Basic Calculator
+* Scientific Calculator
+* Unit Converter
+
+  * Currency Converter
+  * Length Converter
+  * Weight Converter
+  * Temperature Converter
+* Dark / Light Mode
+* Sidebar navigation
+* Responsive design
+
+#### Tech Stack:
+
+* HTML
+* CSS
+* JavaScript
+
+---
+
+##  Folder Structure
 
 ```bash
 CODSOFT/
-│── Portfolio/
-│── LandingPage/
-│── Calculator/
+│── Portfolio-Website/
+│── Landing-Page/
+│── Advanced-Calculator/
 │── README.md
 ```
 
@@ -64,17 +86,18 @@ CODSOFT/
 
 **Mohammad Arsh Naqi**
 
-*  GitHub: https://github.com/mdarshnaqi786-code
-*  LinkedIn: https://www.linkedin.com/in/mohammad-arsh-naqi-1577243a5/
+🔗 GitHub: https://github.com/mdarshnaqi786-code
+🔗 LinkedIn: https://www.linkedin.com/in/mohammad-arsh-naqi-1577243a5/
 
 ---
 
 ##  Contact
 
-* Email: [mdarshnaqi786@gmail.com](mailto:mdarshnaqi786@gmail.com)
+📧 Email: [mdarshnaqi786@gmail.com](mailto:mdarshnaqi786@gmail.com)
 
 ---
 
 ##  Note
 
-This repository is created for internship submission and learning purposes.
+This repository is created for **internship submission** and **learning purposes**.
+I continuously update these projects to improve functionality and design.
