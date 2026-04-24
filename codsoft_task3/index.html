@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartCalc Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>SmartCalc Pro</h2>
+
+        <button class="menu-btn" onclick="showSection('basic')">🧮 Basic Calculator</button>
+        <button class="menu-btn" onclick="showSection('scientific')">🔬 Scientific Calculator</button>
+
+        <!-- Dropdown -->
+        <div class="dropdown">
+            <button class="menu-btn dropdown-btn">🔄 Unit Converter ▼</button>
+            <div class="dropdown-content">
+                <button onclick="setConverter('currency')">💱 Currency</button>
+                <button onclick="setConverter('length')">📏 Length</button>
+                <button onclick="setConverter('area')">📐 Area</button>
+                <button onclick="setConverter('volume')">🧴 Volume</button>
+                <button onclick="setConverter('weight')">⚖ Weight</button>
+                <button onclick="setConverter('temperature')">🌡 Temperature</button>
+                <button onclick="setConverter('speed')">🚗 Speed</button>
+                <button onclick="setConverter('pressure')">🏋 Pressure</button>
+                <button onclick="setConverter('power')">⚡ Power</button>
+                <button onclick="setConverter('number')">🔢 Number System</button>
+            </div>
+        </div>
+
+        <button class="menu-btn" onclick="showSection('history')">📜 History</button>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+        <!-- Basic Calculator -->
+        <div id="basic" class="section active">
+            <h1>🧮 Basic Calculator</h1>
+            <input type="text" id="display" disabled>
+
+            <div class="buttons">
+                <button onclick="appendValue('AC')">AC</button>
+                <button onclick="appendValue('%')">%</button>
+                <button onclick="appendValue('⌫')">⌫</button>
+                <button onclick="appendValue('/')">/</button>
+
+                <button onclick="appendValue('7')">7</button>
+                <button onclick="appendValue('8')">8</button>
+                <button onclick="appendValue('9')">9</button>
+                <button onclick="appendValue('*')">*</button>
+
+                <button onclick="appendValue('4')">4</button>
+                <button onclick="appendValue('5')">5</button>
+                <button onclick="appendValue('6')">6</button>
+                <button onclick="appendValue('-')">-</button>
+
+                <button onclick="appendValue('1')">1</button>
+                <button onclick="appendValue('2')">2</button>
+                <button onclick="appendValue('3')">3</button>
+                <button onclick="appendValue('+')">+</button>
+
+                <button onclick="appendValue('00')">00</button>
+                <button onclick="appendValue('0')">0</button>
+                <button onclick="appendValue('.')">.</button>
+                <button onclick="appendValue('=')">=</button>
+            </div>
+        </div>
+
+        <!-- Scientific Calculator -->
+        <div id="scientific" class="section">
+            <h1>🔬 Scientific Calculator</h1>
+            <input type="text" id="sci-display" disabled>
+
+            <div class="buttons">
+                <button onclick="sciFunc('sin')">sin</button>
+                <button onclick="sciFunc('cos')">cos</button>
+                <button onclick="sciFunc('tan')">tan</button>
+                <button onclick="sciAppend('/')">/</button>
+
+                <button onclick="sciFunc('log')">log</button>
+                <button onclick="sciFunc('ln')">ln</button>
+                <button onclick="sciAppend('π')">π</button>
+                <button onclick="sciAppend('*')">*</button>
+
+                <button onclick="sciAppend('7')">7</button>
+                <button onclick="sciAppend('8')">8</button>
+                <button onclick="sciAppend('9')">9</button>
+                <button onclick="sciAppend('-')">-</button>
+
+                <button onclick="sciAppend('4')">4</button>
+                <button onclick="sciAppend('5')">5</button>
+                <button onclick="sciAppend('6')">6</button>
+                <button onclick="sciAppend('+')">+</button>
+
+                <button onclick="sciAppend('1')">1</button>
+                <button onclick="sciAppend('2')">2</button>
+                <button onclick="sciAppend('3')">3</button>
+                <button onclick="sciEqual()">=</button>
+
+                <button onclick="sciClear()">AC</button>
+                <button onclick="sciAppend('0')">0</button>
+                <button onclick="sciAppend('.')">.</button>
+                <button onclick="sciAppend('^')">xʸ</button>
+            </div>
+        </div>
+
+        <!-- Unit Converter -->
+        <div id="converter" class="section">
+            <h1>🔄 Unit Converter</h1>
+            <h3 id="converter-title">Currency Converter</h3>
+
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="fromUnit"></select>
+            <select id="toUnit"></select>
+            <button onclick="convertUnit()">Convert</button>
+
+            <h2 id="result"></h2>
+        </div>
+
+        <!-- History -->
+        <div id="history" class="section">
+            <h1>📜 History</h1>
+            <ul id="history-list"></ul>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
