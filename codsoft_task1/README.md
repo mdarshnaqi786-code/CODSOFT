@@ -27,7 +27,7 @@ portfolio/
 │-- images/
 │-- resume.pdf
 ```
-## 🌐 Live Demo Links
+##  Live Demo Links
 
 🔗 Portfolio Website: https://mdarshnaqi786-code.github.io/CODSOFT/codsoft_task1/
 
