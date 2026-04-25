@@ -79,6 +79,13 @@ CODSOFT/
 │── Advanced-Calculator/
 │── README.md
 ```
+##  Live Demo Links
+
+🔗 Portfolio Website: https://mdarshnaqi786-code.github.io/CODSOFT/codsoft_task1/
+
+🔗 Landing Page: https://mdarshnaqi786-code.github.io/CODSOFT/codsoft_task2/
+
+🔗 Advanced Calculator: https://mdarshnaqi786-code.github.io/CODSOFT/codsoft_task3/
 
 ---
 
